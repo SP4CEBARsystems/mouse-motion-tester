@@ -16,7 +16,7 @@ hwnd := WinExist()
 Gui, 2:+AlwaysOnTop +ToolWindow -Caption +E0x20
 Gui, 2:Color, 000000
 Gui, 2:Font, c00FF00 s12, Consolas
-Gui, 2:Add, Text, vOut w300 h60, Initializing...
+Gui, 2:Add, Text, vOut w300 h100, Initializing...
 Gui, 2:Show, x20 y20 NoActivate
 
 
